@@ -1,0 +1,29 @@
+.sidebar {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0681fc;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+.topbar {
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #343a40;
+    width: calc(100% - 200px); /* Restar el ancho de la barra lateral */
+    color: white;
+    padding: 15px;
+}
+.main-content {
+    margin-left: 200px; /* Mismo ancho que la barra lateral */
+    margin-top: 60px; /* Mismo alto que la barra superior */
+    padding: 15px;
+}
+.sidebartext{
+    color: white;
+}
